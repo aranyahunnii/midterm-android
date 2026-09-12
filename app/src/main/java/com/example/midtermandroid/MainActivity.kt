@@ -72,6 +72,7 @@ class MainActivity : ComponentActivity() {
         Toast.makeText(applicationContext, "onStop() ถูกเรียก", Toast.LENGTH_SHORT).show()
     }
 
+    // เรียกเมื่อ Activity ถูกทำลายอย่างสมบูรณ์
     override fun onDestroy() {
         super.onDestroy()
         Toast.makeText(applicationContext, "onDestroy() ถูกเรียก", Toast.LENGTH_SHORT).show()
