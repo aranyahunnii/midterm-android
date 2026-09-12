@@ -60,6 +60,7 @@ class MainActivity : ComponentActivity() {
         Toast.makeText(applicationContext, "onResume() ถูกเรียก", Toast.LENGTH_SHORT).show()
     }
 
+    // เรียกเมื่อ Activity กำลังจะถูกบดบังการ
     override fun onPause() {
         super.onPause()
         Toast.makeText(applicationContext, "onPause() ถูกเรียก", Toast.LENGTH_SHORT).show()
