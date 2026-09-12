@@ -66,6 +66,7 @@ class MainActivity : ComponentActivity() {
         Toast.makeText(applicationContext, "onPause() ถูกเรียก", Toast.LENGTH_SHORT).show()
     }
 
+    // เรียกเมื่อ Activity มองไม่เห็นแล้ว
     override fun onStop() {
         super.onStop()
         Toast.makeText(applicationContext, "onStop() ถูกเรียก", Toast.LENGTH_SHORT).show()
