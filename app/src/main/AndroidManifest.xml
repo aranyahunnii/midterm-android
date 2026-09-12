@@ -28,6 +28,12 @@
             android:name=".MapActivity"
             android:exported="true"
             android:label="Map Coordinate" />
+
+        <activity
+            android:name=".LoanActivity"
+            android:exported="true"
+            android:label="Loan Calculator" />
+
     </application>
 
 </manifest>
