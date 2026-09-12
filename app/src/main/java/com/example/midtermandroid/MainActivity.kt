@@ -54,6 +54,7 @@ class MainActivity : ComponentActivity() {
         Toast.makeText(applicationContext, "onStart() ถูกเรียก", Toast.LENGTH_SHORT).show()
     }
 
+    // เรียกเมื่อ Activity พร้อมให้ผู้ใช้โต้ตอบ
     override fun onResume() {
         super.onResume()
         Toast.makeText(applicationContext, "onResume() ถูกเรียก", Toast.LENGTH_SHORT).show()
