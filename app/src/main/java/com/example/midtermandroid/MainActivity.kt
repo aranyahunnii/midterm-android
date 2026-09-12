@@ -48,6 +48,7 @@ class MainActivity : ComponentActivity() {
         }
     }
 
+    // เรียกเมื่อ Activity กำลังจะแสดงผลบนหน้าจอ
     override fun onStart() {
         super.onStart()
         Toast.makeText(applicationContext, "onStart() ถูกเรียก", Toast.LENGTH_SHORT).show()
