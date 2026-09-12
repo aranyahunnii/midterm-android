@@ -34,6 +34,7 @@ import com.example.midtermandroid.ui.theme.MidtermAndroidTheme
 
 class MainActivity : ComponentActivity() {
 
+    // เรียกเมื่อ Activity ถูกสร้างครั้งแรก
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         Toast.makeText(applicationContext, "onCreate() ถูกเรียก", Toast.LENGTH_SHORT).show()
